@@ -1,32 +1,58 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="vi">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>home page</title>
-    <link rel="stylesheet" type="text/css" href="style.css"></head>
-<body>
-    <div class="responsive-container-block bigContainer">
-        <div class="responsive-container-block Container">
-          <div class="responsive-container-block leftSide">
-            <p class="text-blk heading">
-              Nhóm chưa có tên
-            </p>
-            <p class="text-blk subHeading">
-đây là thông tin nhóm của các thành viên nhóm chúng em, chọn để xem từng thông tin thành viên nhóm
-            </p>
-          </div>
-          <div class="responsive-container-block rightSide">
-            <img class="number1img" src="assets\images\NguyenLeGiaHuy.jpg" alt="Creative Team Member 1">
-            <img class="number2img" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/d14.png" alt="Creative Team Member 2">
-            <img class="number3img" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/b245.png" alt="Creative Team Member 3">
-            <img class="number5img" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/Customer supports.png" alt="Creative Team Member 4">
-            <img class="number6img" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/Customer supports.png" alt="Creative Team Member 4">
-            </iframe>
-          </div>
-        </div>
-      </div> 
-      <script src="script.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trang Nhóm</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 flex items-center justify-center min-h-screen">
+  <div class="bg-white shadow-lg rounded-2xl p-6 max-w-4xl w-full">
+    <div class="text-center">
+      <h1 class="text-3xl font-bold text-gray-800">Nhóm Chưa Có Tên</h1>
+      <p class="text-gray-600 mt-2">Đây là thông tin nhóm của các thành viên, chọn để xem từng thông tin.</p>
+    </div>
+    <div class="mt-6 grid grid-cols-2 md:grid-cols-3 gap-4">
+      <div class="text-center">
+        <a href="students/NguyenLeGiaHuy.html" class="block hover:scale-105 transition-transform">
+          <img src="assets/images/NguyenLeGiaHuy.jpg" alt="Thành viên 1"
+            class="w-32 h-32 rounded-full mx-auto shadow-md">
+          <p class="mt-2 text-gray-700 font-medium">Nguyễn Lê Gia Huy</p>
+        </a>
+      </div>
+      <div class="text-center">
+        <a href="students/DoMinhHa.html" class="block hover:scale-105 transition-transform">
+          <img src="assets/images/DoMinhHa.jpg" alt="Thành viên 2"
+            class="w-32 h-32 rounded-full mx-auto shadow-md">
+          <p class="mt-2 text-gray-700 font-medium">Đỗ Minh Hạ</p>
+        </a>
+      </div>
+      <div class="text-center">
+        <a href="students/NguyenLamQuangHuy.html" class="block hover:scale-105 transition-transform">
+          <img src="assets/images/NguyenLamQuangHuy.jpg" alt="Thành viên 3"
+            class="w-32 h-32 rounded-full mx-auto shadow-md">
+          <p class="mt-2 text-gray-700 font-medium">Nguyễn Lâm Quang Huy</p>
+        </a>
+      </div>
+      <div class="text-center">
+        <a href="students/HoVanVuong.html" class="block hover:scale-105 transition-transform">
+          <img src="assets/images/HoVanVuong.jpg"
+            alt="Thành viên 4" class="w-32 h-32 rounded-full mx-auto shadow-md">
+          <p class="mt-2 text-gray-700 font-medium">Hồ Văn Vương</p>
+        </a>
+      </div>
+      <div class="text-center">
+        <a href="students/NguyenXuanBac.html" class="block hover:scale-105 transition-transform">
+          <img src="assets/images/NguyenXuanBac.jpg"
+            alt="Thành viên 5" class="w-32 h-32 rounded-full mx-auto shadow-md">
+          <p class="mt-2 text-gray-700 font-medium">Nguyễn Xuân Bắc</p>
+        </a>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
 </body>
 
 </html>
