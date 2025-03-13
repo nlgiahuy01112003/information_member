@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Card</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #fff;
+            color: #000;
+        }
+        .card {
+            background: #000;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            width: 500px;
+            color: #fff;
+        }
+        .card img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            display: block;
+            margin: 0 auto 20px;
+        }
+        .card-content {
+            display: flex;
+            justify-content: space-between;
+            text-align: left;
+            padding: 10px;
+            position: relative;
+        }
+        .left {
+            width: 30%;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .middle {
+            width: 40%;
+            padding: 0 10px;
+            border-left: 2px solid #fff;
+            border-right: 2px solid #fff;
+        }
+        .right {
+            width: 30%;
+            padding-left: 10px;
+        }
+        .section h3 {
+            margin-bottom: 5px;
+            color: #f4a261;
+        }
+        .section p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <img src="C:\13-3\482996189_1175293834106356_2150166143051953491_n.jpg" alt="Avatar">
+        <div class="card-content">
+            <div class="left section">
+                <h2>Đỗ Minh Hạ</h2>
+                <p>Web Developer | Designer</p>
+            </div>
+            <div class="middle section">
+                <h3>Khóa học và kỹ năng</h3>
+                <p><strong>Lập trình:</strong> Python, JavaScript, C++</p>
+                <p><strong>Phát triển Web:</strong> HTML, CSS, React, Node.js</p>
+                <p><strong>Cơ sở dữ liệu:</strong> MySQL, MongoDB</p>
+                <p><strong>Thiết kế hệ thống:</strong> Kiến trúc phần mềm, API</p>
+                <p><strong>Phát triển Game:</strong> C++ trên UE5, C# trên Unity</p>
+            </div>
+            <div class="right section">
+                <h3>Kỹ năng khác</h3>
+                <p><strong>Tiếng Anh:</strong> Giao tiếp và đọc hiểu tài liệu kỹ thuật</p>
+                <p><strong>Làm việc nhóm:</strong> Phối hợp với đồng đội</p>
+                <p><strong>Giải quyết vấn đề:</strong> Tư duy logic và sáng tạo</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
