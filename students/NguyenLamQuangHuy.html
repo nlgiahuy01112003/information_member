@@ -6,32 +6,73 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Giới Thiệu Bản Thân</title>
   <script src="https://cdn.tailwindcss.com"></script>
+  <!-- <link rel="stylesheet" href="../assets/css/NguyenLamQuangHuy.css"> -->
 </head>
 
-<body class="bg-gray-100 flex items-center justify-center min-h-screen">
-  <div class="bg-white shadow-lg rounded-2xl p-6 max-w-lg w-full">
-    <div class="flex flex-col items-center">
-      <img src="https://via.placeholder.com/120" alt="Avatar" class="w-24 h-24 rounded-full shadow-md">
-      <h2 class="mt-4 text-2xl font-semibold text-gray-800">Tên của bạn</h2>
-      <p class="text-gray-600">Lập trình viên & Nhà phát triển ứng dụng</p>
+<body class="bg-blue-900 flex items-center justify-center min-h-screen p-4">
+  <div class="bg-gray-900 border-4 border-gray-700 shadow-lg rounded-lg p-6 max-w-2xl w-full font-mono text-gray-300">
+    <!-- Thông tin cá nhân -->
+    <div class="flex flex-col items-center text-center fade-in">
+      <img src="https://res.cloudinary.com/drale5yjw/image/upload/v1736488377/hhh_pzhk4u.jpg" alt="Avatar"
+        class="w-24 h-24 rounded-md border-4 border-gray-600 shadow-md pixelated">
+      <h2 class="mt-4 text-2xl font-bold text-green-400 neon-text">Nguyễn Lâm Quang Huy</h2>
+      <p class="text-gray-400">Lập trình viên & Nhà phát triển ứng dụng di động</p>
+      <p class="mt-2 text-gray-500">Sở thích: 🎮 Chơi game, 💻 Lập trình, 🚀 Khám phá công nghệ</p>
+      <p class="text-gray-500">Định hướng: Trở thành kỹ sư phần mềm chuyên sâu về phát triển web & mobile</p>
     </div>
-    <div class="mt-6">
-      <h3 class="text-lg font-semibold text-gray-700">Giới thiệu</h3>
-      <p class="text-gray-600 mt-2">Tôi là một lập trình viên yêu thích phát triển ứng dụng web và mobile. Tôi sử dụng
-        Flutter, .NET và Node.js để xây dựng các sản phẩm sáng tạo.</p>
-    </div>
-    <div class="mt-6">
-      <h3 class="text-lg font-semibold text-gray-700">Liên hệ</h3>
-      <ul class="mt-2 text-gray-600">
-        <li><strong>Email:</strong> your.email@example.com</li>
-        <li><strong>Phone:</strong> 0123-456-789</li>
-        <li><strong>Website:</strong> <a href="#" class="text-blue-500 hover:underline">yourwebsite.com</a></li>
+
+    <!-- Quá trình học tập -->
+    <div class="mt-6 fade-in">
+      <h3 class="text-lg font-bold text-yellow-400 neon-text">📜 Quá trình học tập</h3>
+      <ul class="text-gray-400 mt-2 list-disc list-inside">
+        <li><strong>🎓 Năm 1:</strong> Học lập trình C/C++, toán rời rạc, cấu trúc dữ liệu & giải thuật.</li>
+        <li><strong>💻 Năm 2:</strong> Lập trình hướng đối tượng (OOP) với Java, C#; SQL; phát triển ứng dụng .NET.</li>
+        <li><strong>🌐 Năm 3:</strong> Phát triển web (HTML, CSS, JavaScript, Node.js), xây dựng RESTful API.</li>
+        <li><strong>🚀 Năm 4:</strong> Phát triển mobile với Flutter, DevOps, bảo mật hệ thống.</li>
       </ul>
     </div>
-    <div class="mt-6 flex justify-center">
-      <a href="#" class="bg-blue-500 text-white px-4 py-2 rounded-lg shadow-md hover:bg-blue-600">Xem Dự Án</a>
+
+    <!-- Kỹ năng -->
+    <div class="mt-6 fade-in">
+      <h3 class="text-lg font-bold text-red-400 neon-text">🛠 Kỹ năng đạt được</h3>
+      <ul class="text-gray-400 mt-2 list-disc list-inside">
+        <li>Ngôn ngữ: Dart (Flutter), JavaScript, C# (.NET), Node.js</li>
+        <li>Thiết kế UI/UX với Tailwind CSS, Material Design</li>
+        <li>Phát triển API với .NET Core và Node.js</li>
+        <li>Quản lý cơ sở dữ liệu với SQL Server, MongoDB</li>
+      </ul>
+    </div>
+
+    <!-- Dự án cá nhân -->
+    <div class="mt-6 fade-in">
+      <h3 class="text-lg font-bold text-blue-400 neon-text">🎮 Dự án cá nhân</h3>
+      <ul class="text-gray-400 mt-2 list-disc list-inside">
+        <li><strong>🧋 Ứng dụng bán trà sữa:</strong> Xây dựng với Flutter & .NET API</li>
+        <li><strong>🔐 Quản lý người dùng:</strong> Hệ thống xác thực với Node.js & MongoDB</li>
+        <li><strong>🌐 Website cá nhân:</strong> Portfolio giới thiệu bản thân bằng Tailwind CSS</li>
+      </ul>
+    </div>
+
+    <!-- Liên hệ -->
+    <div class="mt-6 fade-in">
+      <h3 class="text-lg font-bold text-purple-400 neon-text">📧 Liên hệ</h3>
+      <ul class="mt-2 text-gray-400">
+        <li><strong>Email:</strong> nguyenlamquanghuy.2003@gmail.com</li>
+        <li><strong>Phone:</strong> 0808-765-214</li>
+        <li><strong>LinkedIn:</strong> <a href="#"
+            class="text-blue-400 hover:underline">https://www.linkedin.com/in/nlqhuy/</a>
+        </li>
+      </ul>
+    </div>
+
+    <!-- Nút xem dự án -->
+    <div class="mt-6 flex justify-center fade-in">
+      <button id="viewProjectBtn" class="bg-green-500 text-white px-4 py-2 rounded-md shadow-md btn-hover">🎮 Xem Dự
+        Án</button>
     </div>
   </div>
+
+  <script src="../assets/js/NguyenLamQuangHuy.js"></script>
 </body>
 
 </html>
