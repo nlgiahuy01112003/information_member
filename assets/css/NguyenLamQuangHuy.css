@@ -1,0 +1,39 @@
+/* Hiệu ứng fade-in */
+.fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.fade-in.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Chữ phát sáng neon */
+.neon-text {
+  color: #0ff;
+  text-shadow: 0 0 5px #0ff, 0 0 10px #0ff, 0 0 15px #0fa, 0 0 20px #0f8;
+}
+
+/* Hiệu ứng neon mạnh hơn khi hover */
+.neon-text:hover {
+  text-shadow: 0 0 10px #0ff, 0 0 20px #0ff, 0 0 30px #0fa, 0 0 40px #0f8;
+  transition: text-shadow 0.3s ease-in-out;
+}
+
+/* Hiệu ứng glow cho nút */
+.btn-hover {
+  background: linear-gradient(45deg, #0ff, #00f);
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 0 10px #0ff;
+}
+
+.btn-hover:hover {
+  box-shadow: 0 0 15px #0ff, 0 0 30px #0fa;
+  transform: scale(1.1);
+}
